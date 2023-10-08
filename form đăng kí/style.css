@@ -1,5 +1,6 @@
 body {
-    background-image: url(./image/tu-van-chọn-hoa-chuc-mung-ngay-nha-giao-viet-nam-ngay-20-11-5\(1\).jpg);
+    background-image: url(./image/382114004_1390053464881622_7004729806428644664_n.jpg);
+    background-size: cover;
     
 }
 .title {
@@ -69,8 +70,9 @@ body {
 
 .content-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     padding-top: 60px;
+    padding-right: 200px;
 }
 
 .dangki {
@@ -80,6 +82,8 @@ body {
     height: 50px;
     border-radius: 20px;
     font-size: 20px;
+    color: black;
+    text-decoration: none;
 }
 
 .dangki:hover {
