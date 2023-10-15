@@ -1,9 +1,15 @@
 .navigation {
-    background-color: rgb(122, 199, 122);
+    background-color: rgb(233, 26, 26);
     display: flex;
     
     justify-content: space-between;
     padding: 10px;
+    height: 90px;
+    border-radius: 10px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 80px;
     
 }
 
@@ -24,11 +30,11 @@
 } */
 
 .loginout {
-    background-color: rgb(122, 199, 122);
+    background-color: rgb(233, 26, 26);
     padding: 5px;
     border: hidden;
     width: 400px;
-    font-size: 10px;
+    font-size: 15px;
     color: white;
 }
 
@@ -61,7 +67,7 @@
 .searchTerm {
     height: 30px;
     width: 500px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding-left: 20px;
 }
 
@@ -73,7 +79,8 @@
 }
 
 body {
-    background-color: rgb(111, 230, 90);
+    background-image: url(./image/z4784936048264_b63b620b11d0492ec94c54dfb7fdc599.jpg);
+    background-size: cover;
 }
 
 .noidung {
@@ -82,31 +89,24 @@ body {
 }
 
 .anh1 {
-    background-color: rgb(171, 225, 225);
-    font-size: 25px;
-    width: 200px;
-    text-align: center;
-    padding-top: 10px;
-    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    height: 30px;
 }
 
 .anh2 {
-    background-color: rgb(171, 225, 225);
-    font-size: 25px;
-    width: 200px;
-    text-align: center;
-    padding-top: 10px;
-    height: 40px;
-
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    height: 30px;
 }
 
 .anh3 {
-    background-color: rgb(171, 225, 225);
-    font-size: 25px;
-    width: 200px;
-    text-align: center;
-    padding-top: 10px;
-    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    height: 30px;
 }
  .pic1 {
     display: grid;
@@ -139,4 +139,22 @@ body {
     height: 30px;
     width: 30px;
     border-radius: 30px;
+ }
+
+ .slides {
+    width: 100%;
+    height: 500px;
+ }
+
+ .anhgioithieu {
+    width: 70%;
+    margin: auto;
+    padding-top: 100px;
+    
+ }
+
+ .text {
+    text-align: center;
+    color: white;
+    font-size: 30px;
  }

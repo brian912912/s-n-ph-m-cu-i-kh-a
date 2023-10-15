@@ -1,5 +1,5 @@
 body {
-    background-image: url(./image/382114004_1390053464881622_7004729806428644664_n.jpg);
+    background-image: url(./image/z4784936048264_b63b620b11d0492ec94c54dfb7fdc599.jpg);
     background-size: cover;
     /* padding-right: 200px; */
     
@@ -9,7 +9,7 @@ body {
 }
 
 .form {
-    background-color: rgb(164, 238, 238);
+    background-color: white;
     width: 400px;
     height: 550px;
     /* margin-left: 500px;
@@ -28,12 +28,14 @@ body {
 
 
 .submit {
-    background-color: rgb(89, 221, 155);
+    background-color: red;
     margin: 10px;
     width: 200px;
     height: 50px;
     border-radius: 20px;
     font-size: 20px;
+    border-color: red;
+    color: white;
 }
 .name {
     margin-top: 10px;
@@ -58,9 +60,10 @@ body {
     text-align: center;
 }
 
-.submit:hover {
+/* .submit:hover {
     background-color: aqua;
-}
+    border-color: aqua;
+} */
 
 .ten {
     font-size: 30px;
@@ -71,20 +74,28 @@ body {
 
 .content-container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding-top: 60px;
     padding-right: 200px;
 }
 
 .dangki {
-    background-color: rgb(89, 221, 155);
+    background-color: red;
     margin: 10px;
     width: 200px;
     height: 50px;
     border-radius: 20px;
     font-size: 20px;
+    border-color: red;
+    color: white;
 }
 
-.dangki:hover {
+/* .dangki:hover {
     background-color: aqua;
+    border-color: aqua;
+} */
+
+.logo {
+    margin-left: 50px;
+    height: 500px;
 }
