@@ -10,24 +10,20 @@
 </head>
 <body>
     <div class="navigation">
-        <a href="/form đăng nhập/index.html"><button class="loginout"><h1 >Đăng Nhập Hoặc Đăng Kí</h1></button></a>
-        <img src="./image/z4784944355700_da8e8b4d72a406a604b1e8e7c8045deb.jpg" class="icon">
-    </div>
-
-    <div class="gioithieu">
-        <div class="anhgioithieu">
-            <img src="./image/z4579306090626_f1834d8a4209cd4a0ef059318c43b4ea.jpg" class="slides">
-            <img src="./image/z4679768925547_53b6d5ddaac84eb429ac920aa791c0ca.jpg" class="slides">
-            <img src="./image/z4639923155372_353d98865710a3e263d5fdb7b4e2b48b.jpg" class="slides">
-            <img src="./image/z4785088210246_55be829f8f932ee62317154dc7064b7d.jpg" class="slides">
+        <div class="p1">
+            <a href="/form đăng nhập/index.html"><button class="loginout"><h1 >Đăng Nhập Hoặc Đăng Kí</h1></button></a>
+            <a href="/giới thiệu/index.html"><button class="gioithieu"><h1>Giới Thiệu</h1></button></a>
+            <a href="/trang chủ/index.html"><button class="trangchu"><h1>Trang chủ</h1></button></a>
         </div>
+        <div class="p2">
+        <img src="./image/z4784944355700_da8e8b4d72a406a604b1e8e7c8045deb.jpg" class="icon">
+        </div>
+    </div>
         <div class="text">
             <h2>Nơi Lưu Giữ Hình Ảnh Của Bạn</h2>
         </div>
     </div>
-    <script>
-        w3.slideshow(".slides",2000)
-    </script>
+    
 
 
     <div class="search">
@@ -39,16 +35,16 @@
     <div class="noidung">
         <div class="pic1">
             <input class="anh1">
-            <button class="button1">+</button>
+            <input type="file" id="bt1" class="button1" >
 
         </div>
         <div class="pic2">
             <input class="anh2">
-            <button class="button2">+</button>
+            <input type="file" class="button2" id="bt2">
         </div>
         <div class="pic3">
             <input class="anh3">
-            <button class="button3">+</button>
+            <input id="bt3" type="file" class="button3">
         </div>
         
     </div>

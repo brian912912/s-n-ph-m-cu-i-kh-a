@@ -10,6 +10,7 @@
     position: fixed;
     width: 100%;
     height: 80px;
+    top: 0;
     
 }
 
@@ -38,18 +39,10 @@
     color: white;
 }
 
-/* .trangchu:hover {
-    background-color: rgb(153, 213, 213);
-    border: hidden;
-}
 
-.hinhanh:hover {
-    background-color: rgb(153, 213, 213);
-    border: hidden;
-} */
 
 .loginout:hover {
-    background-color: rgb(153, 213, 213);
+    background-color: rgb(171, 9, 9);
     border: hidden;
 }
 
@@ -115,7 +108,7 @@ body {
 
  .button1 {
     height: 30px;
-    width: 30px;
+    width: 70px;
     border-radius: 30px;
  }
 
@@ -126,7 +119,7 @@ body {
 
  .button2 {
     height: 30px;
-    width: 30px;
+    width: 70px;
     border-radius: 30px;
  }
 
@@ -137,24 +130,47 @@ body {
 
  .button3 {
     height: 30px;
-    width: 30px;
+    width: 70px;
     border-radius: 30px;
  }
 
- .slides {
-    width: 100%;
-    height: 500px;
- }
+ 
 
- .anhgioithieu {
-    width: 70%;
-    margin: auto;
-    padding-top: 100px;
+ 
     
- }
+ 
 
  .text {
     text-align: center;
     color: white;
     font-size: 30px;
+    padding-top: 100px;
+ }
+
+ .gioithieu {
+    background-color: rgb(233, 26, 26);
+    padding: 5px;
+    border: hidden;
+    width: 200px;
+    font-size: 15px;
+    color: white;
+ }
+
+ .gioithieu:hover {
+    background-color: rgb(171, 9, 9);
+    border: hidden;
+ }
+
+ .trangchu {
+    background-color: rgb(233, 26, 26);
+    padding: 5px;
+    border: hidden;
+    width: 200px;
+    font-size: 15px;
+    color: white;
+ }
+
+ .trangchu:hover {
+    background-color: rgb(171, 9, 9);
+    border: hidden;
  }
