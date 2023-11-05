@@ -1,0 +1,88 @@
+body {
+    background-image: url(./image/z4784936048264_b63b620b11d0492ec94c54dfb7fdc599.jpg);
+    background-size: cover;
+}
+
+.tieude {
+    text-align: center;
+    color: white;
+    padding-top: 120px;
+    font-size: 50px;
+}
+
+
+.navigation {
+    background-color: rgb(233, 26, 26);
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 10px;
+    height: 90px;
+    border-radius: 10px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+}
+
+.gioithieu {
+    background-color: rgb(233, 26, 26);
+    padding: 5px;
+    border: hidden;
+    width: 200px;
+    font-size: 15px;
+    color: white;
+ }
+
+ .gioithieu:hover {
+    background-color: rgb(171, 9, 9);
+    border: hidden;
+ }
+
+ .trangchu {
+    background-color: rgb(233, 26, 26);
+    padding: 5px;
+    border: hidden;
+    width: 200px;
+    font-size: 15px;
+    color: white;
+ }
+
+ .trangchu:hover {
+    background-color: rgb(171, 9, 9);
+    border: hidden;
+ }
+
+ .loginout {
+    background-color: rgb(233, 26, 26);
+    padding: 5px;
+    border: hidden;
+    width: 400px;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+.loginout:hover {
+    background-color: rgb(171, 9, 9);
+    border: hidden;
+}
+
+.icon {
+    font-size: 20px;
+    padding-right: 20px;
+    color: white; 
+}
+
+.content-container{
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+.slides {
+    width: 100%;
+    
+
+}
