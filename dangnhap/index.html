@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="content-container">
+    <div class="logo">
+        <img src="./image/images.png" class="logo">
+    </div>
+    <div class="form">
+        <div class="tieude">
+            <h1 class="title">Đăng Nhập</h1>
+        </div>
+        <div class="vitri">
+        <label for="username" class="ten">Tên người dùng:</label><br>
+        <input type="text" id="username1" class="name" required><br>
+        <label for="password" class="matkhau">Mật khẩu:</label><br>
+        <input type="password" id="password1" class="pass" required><br>
+        <!-- <a href="../trang chủ/index.html"><button class="submit" >Đăng nhập</button></a><a href="../form đăng kí/index.html"><button class="dangki" >Đăng kí</button></a> -->
+        <button class="submit" id="chuyentrang" onclick="login()" >Đăng nhập</button>
+        <!-- <button class="dangki" >Đăng kí</button> -->
+        <a href="../dangky/index.html"><button class="dangki" >Đăng kí</button></a>
+
+        </div>
+
+    </div>              
+    </div>
+    <script src="../dangky/dangky.js"></script>
+</body>
+</html>

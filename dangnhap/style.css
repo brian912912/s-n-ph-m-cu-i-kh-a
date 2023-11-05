@@ -1,0 +1,101 @@
+body {
+    background-image: url(./image/z4784936048264_b63b620b11d0492ec94c54dfb7fdc599.jpg);
+    background-size: cover;
+    /* padding-right: 200px; */
+    
+}
+.title {
+    font-size: 50px;
+}
+
+.form {
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    /* margin-left: 500px;
+    margin-top: 50px; */
+    border-radius: 30px;
+    /* display: flex;
+    justify-content: center; */
+}
+.vitri {
+    text-align: center;
+    /* display: flex;
+    flex-direction: column-reverse; */
+    
+    
+}
+
+
+.submit {
+    background-color: red;
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-color: red;
+    color: white;
+}
+.name {
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.pass {
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.tieude {
+    padding: 10px;
+    text-align: center;
+}
+
+/* .submit:hover {
+    background-color: aqua;
+    border-color: aqua;
+} */
+
+.ten {
+    font-size: 30px;
+}
+.matkhau {
+    font-size: 30px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-right: 200px;
+}
+
+.dangki {
+    background-color: red;
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-color: red;
+    color: white;
+}
+
+/* .dangki:hover {
+    background-color: aqua;
+    border-color: aqua;
+} */
+
+.logo {
+    margin-left: 50px;
+    height: 500px;
+}
